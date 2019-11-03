@@ -12,23 +12,20 @@ public class WebDriverFactory {
     // the method must return chromediver or firefoxdriver object
     // name:getDriver
 
-    public static WebDriver getDriver(String browserType){
+    public static WebDriver getDriver(String browserType) {
 
-        WebDriver driver=null;
+        WebDriver driver = null;
 
-        switch (browserType.toLowerCase()){
+        switch (browserType.toLowerCase()) {
             case "chrome":
                 WebDriverManager.chromedriver().setup();
-                driver=new ChromeDriver();
+                driver = new ChromeDriver();
                 break;
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
-                driver=new FirefoxDriver();
+                driver = new FirefoxDriver();
 
         }
-
-
-
 
 
         return driver;

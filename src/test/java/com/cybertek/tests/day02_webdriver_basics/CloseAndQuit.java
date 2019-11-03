@@ -9,7 +9,7 @@ public class CloseAndQuit {
 
         WebDriverManager.chromedriver().setup();
 
-        WebDriver driver=new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
 
 /*
         driver.get("https://practice.cybertekschool.com");

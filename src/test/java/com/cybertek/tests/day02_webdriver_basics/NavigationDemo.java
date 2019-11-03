@@ -13,9 +13,9 @@ public class NavigationDemo {
 
         // import class CMD+ENTER or ALT+enter or control +SPACE
         // selenium object
-        WebDriver driver=new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
 //----------------------------------------------------------------------------------------------------------------------
-     // Open website
+        // Open website
 
         // navigate to browser, open website
         driver.get("https://www.amazon.com");
@@ -34,14 +34,6 @@ public class NavigationDemo {
 
         // refresh the page
         driver.navigate().refresh();
-
-
-
-
-
-
-
-
 
 
     }
