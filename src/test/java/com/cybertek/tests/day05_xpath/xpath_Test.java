@@ -1,11 +1,11 @@
-package com.cybertek.tests.day05_Xpath;
+package com.cybertek.tests.day05_xpath;
 
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class xpathTest {
+public class xpath_Test {
 
     public static void main(String[] args) {
 
@@ -48,7 +48,3 @@ public class xpathTest {
         button3again.click();
     }
 }
-
-
-
-
