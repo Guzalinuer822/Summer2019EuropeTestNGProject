@@ -1,4 +1,4 @@
-package com.cybertek.tests.day05_xpath;
+package com.cybertek.tests.day05_xpath_test;
 
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
