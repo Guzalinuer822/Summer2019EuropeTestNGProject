@@ -62,10 +62,7 @@ public class HoverTest {
             Assert.assertTrue(text.isDisplayed(),"verify text 'view profile' text is displayed");
 
         }
-
-
-
-
-
     }
+
+
 }
