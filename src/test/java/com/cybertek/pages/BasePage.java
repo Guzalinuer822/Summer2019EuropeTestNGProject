@@ -10,6 +10,14 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/*
+BasePage --> will contain elements and functionalities tha are common to other pages.
+All other pages that have those functionalities will extend BasePage.
+
+Basepage is not standalone page, there is no page called basepage in applicatiopn
+so no body shouldnt create object from basepage, we will make it abstract
+
+ */
 public abstract class BasePage {
 
     @FindBy(css = "div[class='loader-mask shown']")
